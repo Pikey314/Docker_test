@@ -3,7 +3,7 @@ services:
   node_application:
     container_name: docker-node-mongo
     restart: always
-    build: C:\Users\macp\Desktop\DevOps\Nauka\Docker-compose-Tutorial\docker-node-mongo\
+    build: .
     ports:
       - '80:3000'
     links:
